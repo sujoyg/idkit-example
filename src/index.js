@@ -26,6 +26,8 @@ window.addEventListener("load", () => {
     window.IDKit.init({
       app_id: "app_lshSNnaJfdt6Sohu6YAA",
       action: "my_action",
+      showModal: false,
+      containerId: "idkit-container",
       onSuccess: onIDKitInitSuccess,
       onError: onIDKitInitError,
     });
